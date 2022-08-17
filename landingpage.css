@@ -1,0 +1,181 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+.best > h2{
+    text-align: center;
+}
+.spot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cribbean,
+#los,
+#greece{
+    margin: 10px;
+    position: relative;
+
+}
+
+.spot #cribbean > img,
+.spot #los > img,
+.spot #greece > img{
+    width: 80%;
+    height: auto;
+    margin: 40px;
+}
+#cribbean p{
+    position: absolute;
+    bottom:90px;    
+    left: 40px;
+    background-color: #FBD35B;
+    border-radius: 25px;
+    width:120px;
+    text-align: center;
+}
+#los p{
+    position: absolute;
+    bottom:90px;    
+    left: 40px;
+    background-color: #FBD35B;
+    border-radius: 25px;
+    width:120px;
+    text-align: center;
+}
+#greece p{
+    position: absolute;
+    bottom:90px;    
+    left: 40px;
+    background-color: #FBD35B;
+    border-radius: 25px;
+    width:70px;
+    text-align: center;
+}
+/* img{
+    margin: auto;
+    padding: 0;
+} */
+.arrow{
+    text-align: center;
+    /* width: 8px; */
+    height: 4px; 
+    padding: 3px;
+    margin-top: -40px;
+    cursor: pointer;
+
+}
+.main_blog{
+    margin-top: 130px;
+}
+.blog{
+    /* padding-top: 60px; */
+    display: flex;
+    justify-content: space-around;
+}
+#blog1, #blog2, #blog3  p{
+    text-align: center;
+}
+.blog1, .blog2, .blog3 {
+    background-image: url(main/images/Rectangle\ 3.png);
+    width: 321px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+#blog1, #blog2, #blog3 {
+    width: 288px;
+    height:300px;
+    /* margin-top: 80px; */
+}
+.blog_head > h3{
+    color: rgba(30, 30, 30, 0.3);
+}
+
+.blog_head{
+    padding-left: 30px;
+}
+
+
+.weather_img{
+    background-color:#077AB7;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1px;
+    padding: 10px;
+}
+.map_img{
+    background-color: #BB5C04;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1px;
+    padding: 10px;
+}
+.itineary_img{
+    background-color: #FFC107;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1px;
+    padding: 10px;
+}
+.reccom_img{
+    background-color: #FF3407;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 1px;
+    padding: 10px;
+}
+.choose  img :hover{
+    font-size: 60px;
+}
+.choose{
+    /* background-image: url(main/images/Rectangle\ 175.png); */
+    display: flex;
+    color: #FFFFFFCC;
+    /* padding-left: 20px; */
+    text-align: center;
+    margin-top: 80px;
+}
+.choose_us > h3{
+    text-align: center;
+    color: #FFFFFF80;
+     padding-top: 80px;
+
+}
+.choose_us > h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+#link li a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+#link {
+    list-style-type: none;
+}
+#link li a:hover{
+    font-size: 20px;
+    color: #BB5C04;
+}
+footer {
+    padding-top: 80px;
+    /* background-image: url(main/images/Rectangle\ 175.png); */
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFFCC;
+}
+#lower{
+    background-image: url(main/images/Rectangle\ 175.png);
+    
+}
+footer > h2{
+    text-align: center;
+}
